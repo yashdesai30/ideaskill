@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/navigationBar"
+    tools:context=".AddPostActivity"
+    >
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </FrameLayout>
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/post_date2"-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_below="@+id/post_typeSpinner"-->
+<!--        android:layout_marginStart="1dp"-->
+<!--        android:layout_marginTop="84dp"-->
+<!--        android:background="@drawable/ic_date_icon" />-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/textInputLayout4"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/post_typeSpinner"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_toEndOf="@+id/textView8"-->
+<!--        app:boxBackgroundMode="filled"-->
+<!--        android:textColorHint="@color/colorAccent">-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/post_dateText2"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="dd/mm/yy"-->
+<!--            android:gravity="center"-->
+<!--            android:textSize="18sp" />-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout6"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+
+        android:layout_marginTop="149dp"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent">
+
+        <EditText
+            android:id="@+id/post_aim"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-2dp"
+            android:layout_marginEnd="0dp"
+            android:ems="10"
+            android:hint="Project Aim"
+            android:paddingLeft="10dp"
+            android:textSize="20sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/post_typeSpinner"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textInputLayout6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="74dp"
+        android:background="@drawable/border1" />
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/textInputLayout5"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/post_typeSpinner"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:layout_toStartOf="@+id/textView8"-->
+<!--        android:textColorHint="@color/colorAccent"-->
+<!--        app:boxBackgroundMode="filled"-->
+<!--        >-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/post_dateText"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="dd/mm/yy"-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="@color/colorPrimary"-->
+<!--            android:textSize="18sp" />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/post_date"-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_below="@+id/post_typeSpinner"-->
+<!--        android:layout_marginStart="1dp"-->
+<!--        android:layout_marginTop="17dp"-->
+<!--        android:layout_toEndOf="@+id/post_dateText"-->
+<!--        android:background="@drawable/ic_date_icon" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView8"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--        android:layout_below="@+id/post_typeSpinner"-->
+
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="37dp"-->
+<!--        android:text="to"-->
+<!--        android:textSize="20sp" />-->
+
+
+</RelativeLayout>

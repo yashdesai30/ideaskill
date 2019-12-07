@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "191398401169",
+    "firebase_url": "https://ideaskill-ff05e.firebaseio.com",
+    "project_id": "ideaskill-ff05e",
+    "storage_bucket": "ideaskill-ff05e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191398401169:android:94278577e133b8ac",
+        "android_client_info": {
+          "package_name": "com.example.ideaskill"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191398401169-8q9fpill639jh48j04ea9pgada1ifvpf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ideaskill",
+            "certificate_hash": "d7fe8e4cd1a8698829d30f55d11c97bbc09c6da4"
+          }
+        },
+        {
+          "client_id": "191398401169-i66hb4mlrbmf9666u49317rcup3lbkd3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNylVx79MXEYvvxINGVq9roSzpZdFqSZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191398401169-u502v3g3ah4nu3b2qleplu5afbf46l7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SeeShare</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="Types">
+        <item>Select Project Type</item>
+        <item>Android</item>
+        <item>Web Application</item>
+        <item>Computer Software</item>
+
+    </string-array>
+</resources>
